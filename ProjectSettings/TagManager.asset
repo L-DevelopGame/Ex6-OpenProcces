@@ -8,6 +8,8 @@ TagManager:
   - mammals
   - PatrolPoint
   - EnemyCow
+  - Monster
+  - RightBounder
   layers:
   - Default
   - TransparentFX

@@ -46,7 +46,7 @@ public class ScoreAdder : MonoBehaviour {
     private void UpdatePickedAnimalsText()
     {
         // Clear the previous text
-        pickedAnimalsText.text = "Picked Animals:\n";
+        pickedAnimalsText.text = "\n";
 
         // Append each picked animal to the text
         foreach (string animal in pickedAnimals)

@@ -21,7 +21,7 @@ public class DestroyAfterHits : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == triggeringTag && enabled)
+        if (other.tag == triggeringTag )
         {
 
             --HitPoints;
